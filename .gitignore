@@ -1,0 +1,20 @@
+# =============== Unity Generated Folders ===============
+# The Library folder contains imported assets and compiled scripts (MUST BE IGNORED).
+Library/
+# Temporary files generated during build and compilation.
+Temp/
+# Intermediate compilation files.
+Obj/
+# Build output folders.
+Builds/
+
+# =============== Unity Generated Files ===============
+# Crash logs.
+*.log
+
+# =============== IDE/OS Generated Files ===============
+# Visual Studio solution files (often ignored for cross-platform consistency).
+*.sln
+*.csproj
+# macOS files
+.DS_Store
