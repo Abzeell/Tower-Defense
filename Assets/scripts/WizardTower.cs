@@ -5,11 +5,9 @@ public class WizardTower : Tower
     protected override void Start()
     {
         base.Start();
-        cost = 20;
-        range = 3f;
-        fireRate = 0.5f;
-        damage = 3;
+        cost = 25;
+        range = 2f;
+        fireRate = 0.2f;
+        damage = 3; // override attributes from parent class
     }
-
-    
 }

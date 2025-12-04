@@ -1,0 +1,429 @@
+fileFormatVersion: 2
+guid: db6b2232652a049259fcbe1683ea70eb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1683977242019582768
+    second: uiButtons-removebg-preview_0
+  - first:
+      213: -1431320085165418341
+    second: uiButtons-removebg-preview_1
+  - first:
+      213: -4363183404681986238
+    second: uiButtons-removebg-preview_2
+  - first:
+      213: 8224563321729141694
+    second: uiButtons-removebg-preview_3
+  - first:
+      213: 8030493648082108063
+    second: uiButtons-removebg-preview_4
+  - first:
+      213: -8199450849874394764
+    second: uiButtons-removebg-preview_5
+  - first:
+      213: -6111189113310844630
+    second: uiButtons-removebg-preview_6
+  - first:
+      213: 2049095906059934433
+    second: uiButtons-removebg-preview_7
+  - first:
+      213: 953412408833280042
+    second: uiButtons-removebg-preview_8
+  - first:
+      213: -6121706247646387398
+    second: uiButtons-removebg-preview_9
+  - first:
+      213: 1286239125177985796
+    second: uiButtons-removebg-preview_10
+  - first:
+      213: 3857994042460163803
+    second: uiButtons-removebg-preview_11
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 237
+        width: 102
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dca497de9f41a8e0800000000000000
+      internalID: -1683977242019582768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 237
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9855db47fde22ce0800000000000000
+      internalID: -1431320085165418341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 237
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24ffc028fcbd273c0800000000000000
+      internalID: -4363183404681986238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 237
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb4f58f3c4832270800000000000000
+      internalID: 8224563321729141694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 122
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ef6f0fc6b027f60800000000000000
+      internalID: 8030493648082108063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 122
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47146f305e2b53e80800000000000000
+      internalID: -8199450849874394764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 122
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a296fd141e1b03ba0800000000000000
+      internalID: -6111189113310844630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 122
+        width: 99
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ead867bed9df6c10800000000000000
+      internalID: 2049095906059934433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_8
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 7
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2805f0d8833b3d00800000000000000
+      internalID: 953412408833280042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_9
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 7
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a336fb91a945b0ba0800000000000000
+      internalID: -6121706247646387398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_10
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 7
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40b61786ba3a9d110800000000000000
+      internalID: 1286239125177985796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: uiButtons-removebg-preview_11
+      rect:
+        serializedVersion: 2
+        x: 333
+        y: 7
+        width: 100
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bde496e14295a8530800000000000000
+      internalID: 3857994042460163803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      uiButtons-removebg-preview_0: -1683977242019582768
+      uiButtons-removebg-preview_1: -1431320085165418341
+      uiButtons-removebg-preview_10: 1286239125177985796
+      uiButtons-removebg-preview_11: 3857994042460163803
+      uiButtons-removebg-preview_2: -4363183404681986238
+      uiButtons-removebg-preview_3: 8224563321729141694
+      uiButtons-removebg-preview_4: 8030493648082108063
+      uiButtons-removebg-preview_5: -8199450849874394764
+      uiButtons-removebg-preview_6: -6111189113310844630
+      uiButtons-removebg-preview_7: 2049095906059934433
+      uiButtons-removebg-preview_8: 953412408833280042
+      uiButtons-removebg-preview_9: -6121706247646387398
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

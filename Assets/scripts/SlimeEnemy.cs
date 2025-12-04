@@ -6,9 +6,9 @@ public class SlimeEnemy : Enemy
     {
         base.Start();
         animator = GetComponent<Animator>();
-        moveSpeed = 0.75f;
+        moveSpeed = 1.5f;
         damage = 1;
-        health = 5;
+        health = 8;
         bounty = 3;
     }
 

@@ -5,10 +5,10 @@ public class OrcEnemy : Enemy
     protected override void Start()
     {
         base.Start();
-        moveSpeed = 0.5f;
-        bounty = 5;
+        moveSpeed = 1f;
+        bounty = 10;
         damage = 2;
-        health = 8;
+        health = 20;
     }
 
     protected override void HandlePathEnd()

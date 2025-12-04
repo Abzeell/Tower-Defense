@@ -100,4 +100,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 089810a29c5de864e8488b20fd592428, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aoeRadius: 2
+  explosionPrefab: {fileID: 225417527113603904, guid: 76fdeb9e3216a43748eda9afa396c99a, type: 3}
+  aoeRadius: 1.2

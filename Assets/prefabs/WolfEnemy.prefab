@@ -68,7 +68,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92d917045ffda47d7ba581dd294db9a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 40
+  moveSpeed: 2
+  health: 5
+  bounty: 2
   animator: {fileID: 0}
   isDead: 0
 --- !u!212 &4746435793208038064

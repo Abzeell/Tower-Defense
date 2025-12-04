@@ -39,13 +39,11 @@ public class Path : MonoBehaviour
 
     private void OnDrawGizmos()
     {
-        // 🛑 We REMOVED BuildPath() from here.
-        // OnDrawGizmos should only READ data, not create new lists.
+       
 
         if (PathNodes.Head == null)
         {
-            // If the path is empty, draw a red sphere at the script's location
-            // so you can see that it's working.
+            
             Gizmos.color = Color.red;
             Gizmos.DrawSphere(transform.position, 0.5f);
             return;

@@ -6,6 +6,7 @@ public class TowerPlacementUi : MonoBehaviour
     [SerializeField] private TowerManager towerManager;
    
 
+    // towerPlacementUI control
     public void ShowPopup()
     {
         panel.SetActive(true);
@@ -13,17 +14,17 @@ public class TowerPlacementUi : MonoBehaviour
 
     public void HidePopup()
     {
-        panel.SetActive(false);
+        panel.SetActive(false); 
     }
 
     // Called by UI buttons
     public void OnSelectTower(int index)
     {
-        towerManager.PlaceTower(index);
+        towerManager.PlaceTower(index); // index is passed from archer and wizard tower buttons
     }
 
     void Start()
     {
-        HidePopup();
+        HidePopup(); //hidep popup at the start of the scene
     }
 }

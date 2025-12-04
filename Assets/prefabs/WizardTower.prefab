@@ -102,10 +102,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 92c66cbd617aa84429fa77efa54a0ea1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 5
-  fireRate: 1
-  damage: 1
-  cost: 20
+  range: 2
+  fireRate: 0.6
+  damage: 4
+  cost: 25
   enemyTag: Enemy
   firePoint: {fileID: 3624612335504658041}
   projectilePrefab: {fileID: 195230822551148006, guid: f0badb9a9e7e07544a119f4f2c5d9e7d, type: 3}

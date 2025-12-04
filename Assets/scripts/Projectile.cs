@@ -8,8 +8,8 @@ public class Projectile : MonoBehaviour
 
     public void Initialize(Enemy enemy, int damageAmount)
     {
-        targetEnemy = enemy;
-        damage = damageAmount;
+        targetEnemy = enemy; // enemy is passed from tower.cs
+        damage = damageAmount; // damage is passed from tower.cs
     }
 
     protected virtual void Update()
@@ -36,7 +36,7 @@ public class Projectile : MonoBehaviour
     {
         if (targetEnemy != null)
         {
-            targetEnemy.TakeDamage(damage);
+            targetEnemy.TakeDamage(damage); // access the enemies takedamage function to deal damage to them
         }
         Destroy(gameObject);
     }

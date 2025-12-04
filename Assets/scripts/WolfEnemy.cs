@@ -7,10 +7,10 @@ public class WolfEnemy : Enemy
     {
         base.Start();
         animator = GetComponent<Animator>();
-        moveSpeed = 1.5f;
+        moveSpeed = 2f;
         damage = 1;
-        health = 5;
-        bounty = 3;
+        health = 4;
+        bounty = 2; // override attributes from parent class
     }
 
     protected override void HandlePathEnd()
@@ -22,7 +22,7 @@ public class WolfEnemy : Enemy
     public override void TakeDamage(int amount)
     {
 
-        health -= amount;
+        health -= amount; // damage is passed from projectile object
         Debug.Log($"{name} took {amount} damage! HP left: {health}");
 
         if (health <= 0)
@@ -34,6 +34,6 @@ public class WolfEnemy : Enemy
     public void Attack()
     {
         Debug.Log($"{name} attacks and deals {damage} damage!");
-        Player.Instance.TakeDamage(damage);
+        Player.Instance.TakeDamage(damage); // access the player instance to deal damage
     }
 }

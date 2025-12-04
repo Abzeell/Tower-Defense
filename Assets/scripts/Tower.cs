@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting;
+using UnityEngine;
 
 public class Tower : MonoBehaviour
 {
@@ -72,26 +73,24 @@ public class Tower : MonoBehaviour
     }
 
 
-    // -------------------------
-    // Target searching
-    // -------------------------
+    // target searching
     protected virtual void UpdateTarget()
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag);
-        float closest = Mathf.Infinity;
+        GameObject[] enemies = GameObject.FindGameObjectsWithTag(enemyTag); // get all "enemy" in the scene and puts it into an array
+        float closest = Mathf.Infinity; 
         GameObject nearest = null;
 
-        foreach (var enemy in enemies)
+        foreach (var enemy in enemies) // goes through each of the "enemy" in the array 
         {
             Enemy e = enemy.GetComponent<Enemy>();
-            if (e == null || e.isDead) 
+            if (e == null || e.isDead)  // checks if "enemy" is dead
                 continue;
 
-            float d = Vector3.Distance(transform.position, enemy.transform.position);
+            float d = Vector3.Distance(transform.position, enemy.transform.position); // gets distance
             if (d < closest)
             {
-                closest = d;
-                nearest = enemy;
+                closest = d; // sets closest "enemy" distance into closest variable
+                nearest = enemy; // sets the nearest "enemy" object to nearest variable to be targeted
             }
         }
 
@@ -99,9 +98,7 @@ public class Tower : MonoBehaviour
     }
 
 
-    // -------------------------
-    // Animation Helper
-    // -------------------------
+    // animation
     void PlayIdle()
     {
         if (animator)
@@ -118,9 +115,7 @@ public class Tower : MonoBehaviour
     }
 
 
-    // -------------------------
-    // Shooting
-    // -------------------------
+    // shooting
     protected virtual void Shoot()
     {
         if (target == null || projectilePrefab == null || firePoint == null)

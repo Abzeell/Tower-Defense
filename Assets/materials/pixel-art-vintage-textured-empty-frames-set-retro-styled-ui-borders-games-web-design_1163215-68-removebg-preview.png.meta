@@ -1,0 +1,325 @@
+fileFormatVersion: 2
+guid: 7d6d554edceb347faa2cc34a5a0c526f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -61377871522280958
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_0
+  - first:
+      213: 6841993451480219734
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_1
+  - first:
+      213: -286025836965610554
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_2
+  - first:
+      213: -1492411800069039831
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_3
+  - first:
+      213: 444175767838425453
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_4
+  - first:
+      213: 9099538779191609963
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_5
+  - first:
+      213: -8008688458453436635
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_6
+  - first:
+      213: -4345830603821222964
+    second: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_7
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_0
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 225
+        width: 172
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20a48daa621f52ff0800000000000000
+      internalID: -61377871522280958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_1
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 142
+        width: 147
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 650070f2bc4a3fe50800000000000000
+      internalID: 6841993451480219734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_2
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 225
+        width: 148
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cbb4174405d70cf0800000000000000
+      internalID: -286025836965610554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 59
+        width: 85
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929984eff53e94be0800000000000000
+      internalID: -1492411800069039831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_4
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 142
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6188dbe1870a2600800000000000000
+      internalID: 444175767838425453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_5
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 121
+        width: 148
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a8b99ee4e084e70800000000000000
+      internalID: 9099538779191609963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_6
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 59
+        width: 231
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527bc15674c6bd090800000000000000
+      internalID: -8008688458453436635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_7
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 59
+        width: 148
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc3f63d471280b3c0800000000000000
+      internalID: -4345830603821222964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_0: -61377871522280958
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_1: 6841993451480219734
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_2: -286025836965610554
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_3: -1492411800069039831
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_4: 444175767838425453
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_5: 9099538779191609963
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_6: -8008688458453436635
+      pixel-art-vintage-textured-empty-frames-set-retro-styled-ui-borders-games-web-design_1163215-68-removebg-preview_7: -4345830603821222964
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

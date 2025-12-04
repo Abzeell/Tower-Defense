@@ -43,7 +43,7 @@ using UnityEngine;
         }
     }
 
-    // Optional: Print all nodes
+    
     public void PrintAllNodes()
         {
             Node<T> current = Head;

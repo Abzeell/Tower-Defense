@@ -5,17 +5,20 @@ public abstract class Enemy : MonoBehaviour
 {
     [Header("Stats")]
     public float moveSpeed;
-    protected int damage;
+
+    [SerializeField]
     protected int health;
+    [SerializeField]
     protected int bounty;
+    protected int damage;
 
     [Header("Animation")]
     public Animator animator; // assign in inspector
     public bool isDead = false;
 
     // Events
-    public event Action OnPathReachedEnd;
-    public event Action OnKilled;
+    public event Action OnPathReachedEnd; // this event will be triggered by the lambda functions below and will invoke the functions subsribed
+    public event Action OnKilled; // this event will be triggered by the lambda functions below and will invoke the functions subsribed
 
     protected Node<GameObject> currentNode;
     protected Path path;
@@ -62,8 +65,8 @@ public abstract class Enemy : MonoBehaviour
             currentNode = currentNode.Next;
     }
 
-    protected void RaisePathEndEvent() => OnPathReachedEnd?.Invoke();
-    protected void RaiseKilledEvent() => OnKilled?.Invoke();
+    protected void RaisePathEndEvent() => OnPathReachedEnd?.Invoke(); // lambda function to trigger the action "OnPathReachedEnd" above
+    protected void RaiseKilledEvent() => OnKilled?.Invoke(); // lambda function to trigger the action "OnKilled" above
 
     protected virtual void Die()
     {
@@ -84,6 +87,6 @@ public abstract class Enemy : MonoBehaviour
         Destroy(gameObject, deathLength);
     }
 
-    protected abstract void HandlePathEnd();
-    public abstract void TakeDamage(int amount);
+    protected abstract void HandlePathEnd(); // child will implement since each enemies have different damage
+    public abstract void TakeDamage(int amount); // child will implement since each enemies have different hp
 }

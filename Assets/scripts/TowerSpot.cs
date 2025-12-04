@@ -21,7 +21,7 @@ public class TowerSpot : MonoBehaviour
     {
         if (isOccupied) return;
 
-        towerManager.ShowTowerPopUp(this);
+        towerManager.ShowTowerPopUp(this); // shows the towerPlacementUI
     }
 
     public void PlaceTower(GameObject tower)
