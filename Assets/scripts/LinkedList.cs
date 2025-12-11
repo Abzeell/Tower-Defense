@@ -1,5 +1,7 @@
 using UnityEngine;
 
+namespace MyDataStructures
+{
     public class LinkedList<T>
     {
         public Node<T> Head { get; private set; }
@@ -24,27 +26,25 @@ using UnityEngine;
             {
                 Tail.Next = newNode;
                 Tail = newNode;
-                Tail.Next = null;
             }
         }
 
-    public void AddFirst(T value)
-    {
-        Node<T> newNode = new Node<T>(value);
-
-        if (Head == null)
+        public void AddFirst(T value)
         {
-            Head = Tail = newNode;
-        }
-        else
-        {
-            newNode.Next = Head;
-            Head = newNode;
-        }
-    }
+            Node<T> newNode = new Node<T>(value);
 
-    
-    public void PrintAllNodes()
+            if (Head == null)
+            {
+                Head = Tail = newNode;
+            }
+            else
+            {
+                newNode.Next = Head;
+                Head = newNode;
+            }
+        }
+
+        public void PrintAllNodes()
         {
             Node<T> current = Head;
             while (current != null)
@@ -54,4 +54,4 @@ using UnityEngine;
             }
         }
     }
-
+}
